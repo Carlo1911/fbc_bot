@@ -6,7 +6,7 @@ Messenger Bot for musicxmatch in python
 ```sh
 sudo apt-get update
 sudo apt-get install -y python3-pip libjpeg-dev libfreetype6  libfreetype6-dev zlib1g-dev libpq-dev libffi-dev git build-essential libssl-dev libffi-dev python3-dev
-sudo apt-get install mysql-server libmysqlclient-dev
+sudo apt-get install postgresql postgresql-contrib
 sudo -H pip3 install virtualenv
 ```
 - Create virtualenv directory: `mkdir env`
